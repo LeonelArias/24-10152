@@ -1,0 +1,11 @@
+Z => Z => Z (define de_morgan1
+  (lambda (P Q)
+    (not (and P Q))))
+
+Z => Z => Z(define de_morgan2
+  (lambda (P Q)
+    (not (or P Q))))
+
+Z => Z (define succ
+  (lambda (z)
+    (+ z 1)))
