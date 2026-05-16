@@ -1,3 +1,4 @@
-Z => Z => Z de_morgan1 := 5;
-Z => Z => Z de_morgan2 := 5;
-Z => Z succ := 5;
+Z => Z => Z de_morgan1 := 5;de_morgan1 = lambda P, Q: not (P and Q) == (not P or not Q)
+Z => Z => Z de_morgan2 := 5;de_morgan2 = lambda P, Q: not (P or Q) == (not P and not Q)
+Z => Z succ := 5;def succ(z):
+    return z + 1
