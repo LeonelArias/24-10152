@@ -1,0 +1,7 @@
+utilice como modelo de IA a: Deepseek
+
+==> Considero que, en modo de razonamiento sirve de guia para llevar de la mejor manera C++
+
+para los ejercicios 3, 4 y 5 me sirvio de puente para llevar a cabo el lenguaje de C++ sobretodo en el posicionamiento de los comandos, para zilly tambien me sirvio de soorte para conseguir entender un poco mejor el comportamiento de la misma
+
+Siento que apoyarse de la IA es positivo mas que todo para entender de mejor manera los lenguajes de programacion pero no recomendasria abusar de su uso
