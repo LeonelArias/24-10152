@@ -92,21 +92,3 @@ Tsfib(n)≈n
 Por lo tanto, zfib es asintóticamente n veces más rápido que sfib, ya que evita repetir el cálculo de fibo en cada iteración de la sumatoria. Para valores grandes de n, la diferencia es dramática: por ejemplo, para n = 30, sfib realiza 31 llamadas a fibo, mientras que zfib sólo realiza 1.
 
 En pocas palabras: zfib es más rápido porque reemplaza la sumatoria de n+1 llamadas recursivas a fibo por una única llamada a fibo(n+2), gracias a la identidad sfib(n) = fibo(n+2) − 1.
-
-Estructura del repositorio
-text
-Examen 3
-├── Macondian
-│   └── (trabajo de la otra parte del examen)
-└── Zilly
-    └── fibo_sfib_zfib.zilly   (contiene fibo, sfib y zfib)
-Contenido del archivo fibo_sfib_zfib.zilly:
-
-text
-::zilly+
-
-Z => Z fibo := fn(Z n) => Z -> if(n < 2, n, fibo(n - 1) + fibo(n - 2));
-
-Z => Z sfib := fn(Z n) => Z -> if(n == 0, fibo(0), fibo(n) + sfib(n - 1));
-
-Z => Z zfib := fn(Z n) => Z -> fibo(n + 2) - 1;
